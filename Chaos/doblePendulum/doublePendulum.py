@@ -156,19 +156,19 @@ if __name__ == '__main__':
 
     print('##### Double pendulum canvas initialized!')
 
-    n = 10
+    n = 100
     for paint in range(n):
 
         print('Painting {} of {}'.format(paint, n))
 
         # INITIAL CONDITIONS
         print('Randomizing initial conditions...')
-        l1 = np.random.random()*10
-        l2 = np.random.random()*10
-        m1 = np.random.random()*10
-        m2 = np.random.random()*10
-        theta1_init = np.random.random()*180
-        theta2_init = np.random.random()*180
+        l1 = round(np.random.random()*10, 3)
+        l2 = round(np.random.random()*10, 3)
+        m1 = round(np.random.random()*10, 3)
+        m2 = round(np.random.random()*10, 3)
+        theta1_init = round(np.random.random()*180, 3)
+        theta2_init = round(np.random.random()*180, 3)
         tmax = 5
         print(' L1 = {} m\n'.format(l1),
               'L2 = {} m\n'.format(l2),
@@ -177,6 +177,7 @@ if __name__ == '__main__':
               'Theta1 = {} deg\n'.format(theta1_init),
               'Theta2 = {} deg\n'.format(theta2_init),
               'Simulation time = {} s'.format(tmax))
+        init_cond_enc = '_'.join([str(x) for x in [l1, l2, m1, m2, theta1_init, theta2_init]])
 
         # SIMULATION PARAMETERS
         # The gravitational acceleration (m.s-2)
@@ -209,5 +210,5 @@ if __name__ == '__main__':
 
         print('Generating plot...')
         speed = (theta1_dot * l1) + (theta2_dot * l2)
-        generate_plot(x2, y2, speed, 'DoublePendulum_{}'.format(paint), type='multicolor_cortado')
+        generate_plot(x2, y2, speed, r'Work\DoublePendulum_{}'.format(init_cond_enc), type='color')
         print('Done!')

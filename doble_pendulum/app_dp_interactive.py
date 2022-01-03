@@ -73,9 +73,18 @@ class PyArtLaboApplication:
                                                         self.sim_time,
                                                         self.theta1_init,
                                                         self.theta2_init)
+        filename_png = '{}_{}_{}_{}_{}_{}_{}_{}.png'.format(self.l1,
+                                                            self.l2,
+                                                            self.m1,
+                                                            self.m2,
+                                                            self.g,
+                                                            self.sim_time,
+                                                            self.theta1_init,
+                                                            self.theta2_init)
 
         # Save figure
         self.fig.savefig(os.path.join(r'C:\Users\fjorg\Desktop\Git\pyartlabo\doble_pendulum\Favs', filename), format='svg', dpi=1200)
+        self.fig.savefig(os.path.join(r'C:\Users\fjorg\Desktop\Git\pyartlabo\doble_pendulum\Favs', filename_png), format='png', dpi=1200)
         st.write('File Saved!')
 
 

@@ -61,7 +61,7 @@ def generate_plot(x2, y2, back_col, prim_col):
     """ Make final plot """
 
     # Create figure
-    fig = plt.figure(figsize=(10, 10), dpi=1200)
+    fig = plt.figure(figsize=(20, 20), dpi=1200)
     ax = fig.add_subplot(111)
 
     # Styling
@@ -77,3 +77,5 @@ def generate_plot(x2, y2, back_col, prim_col):
     plt.axis('off')
     # plt.tight_layout()
     return fig
+
+

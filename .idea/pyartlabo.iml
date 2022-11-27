@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="PYTHON_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Chaos" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Chaos/doblePendulum/frames" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Chaos/doblePendulum" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/App" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/App/fonts" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/App/icons" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/App/modules" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/App/widgets" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Chaos/lorentzAttractor" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/techniques" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/techniques/doblePendulum" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lorentz_attractor" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/doble_pendulum" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/doble_pendulum/Favs" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/mandelbrot" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/mandelbrot/imgs" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/mandelbrot/data" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/bifurcationDiagram" isTestSource="false" />
+    </content>
+    <orderEntry type="jdk" jdkName="Python 3.7 (pyartlabo_env)" jdkType="Python SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="Simple_PySide_Base" />
+    <orderEntry type="module" module-name="Minimalistic-Flat-Modern-GUI-Template" />
+    <orderEntry type="module" module-name="Modern_GUI_PyDracula_PySide6_or_PyQt6" />
+  </component>
+  <component name="TestRunnerService">
+    <option name="PROJECT_TEST_RUNNER" value="pytest" />
+  </component>
+</module>

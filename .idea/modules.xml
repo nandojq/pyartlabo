@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../Minimalistic-Flat-Modern-GUI-Template/.idea/Minimalistic-Flat-Modern-GUI-Template.iml" filepath="$PROJECT_DIR$/../Minimalistic-Flat-Modern-GUI-Template/.idea/Minimalistic-Flat-Modern-GUI-Template.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Modern_GUI_PyDracula_PySide6_or_PyQt6/.idea/Modern_GUI_PyDracula_PySide6_or_PyQt6.iml" filepath="$PROJECT_DIR$/../Modern_GUI_PyDracula_PySide6_or_PyQt6/.idea/Modern_GUI_PyDracula_PySide6_or_PyQt6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Simple_PySide_Base/.idea/Simple_PySide_Base.iml" filepath="$PROJECT_DIR$/../Simple_PySide_Base/.idea/Simple_PySide_Base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/pyartlabo.iml" filepath="$PROJECT_DIR$/.idea/pyartlabo.iml" />
+    </modules>
+  </component>
+</project>
